@@ -1,5 +1,13 @@
 body {
-  font-family: lucida console;
-  background-color: #69F7BE
-    text-align:center;
+  font-family: monospace,lucida console;
+  background-color: #69F7BE;
+  text-align:center;
+}
+
+h1{
+  font-size:50px;
+}
+
+#MainSelectors button{
+  width:150px;
 }
