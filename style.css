@@ -1,4 +1,4 @@
-  font-size:28body {
+body {
   font-family: monospace,lucida console;
   background-color: #69F7BE;
   text-align:center;
@@ -49,5 +49,6 @@ h1{
   margin-top:20px;
 }
 
-#bt  font-size:20px;me1St-size:28px;
+#btnGame1Submit{
+  
 }
