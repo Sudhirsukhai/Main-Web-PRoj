@@ -28,15 +28,27 @@ h1{
 }
 
 #Game1Words{
+  margin-left:80px;
   border:solid 2px;
-  height:200px;
+  width: 1200px;
+  height:120px;
   font-size:30px;
 }
 #Game1Words label{
-  margin-left:10px;
   margin-bottom:10px;
 }
-
+#Game1Ans label{
+  font-size:28px;
+}
 #Game1Ans input{
-  width:8px;
+  height:28px;
+  width:19px;
+  font-size:28px;
+}
+#btnChemWord2{
+  margin-top:20px;
+}
+
+#btnGame1Submit{
+  
 }
