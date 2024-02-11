@@ -54,21 +54,22 @@ h1{
   font-size:20px;
   width:120px;
 }
-#Results label{
-  color: ;
-  font-variant-numeric: diagonal-fractions;
+#Results{
   font-size:150px;
 }
 #lblscore1{
-  
-  
-  
-  
+  margin-left:-50px;
+  z-index: 2;
 }
 #lblSep{
-  z-index: 1;
+  margin-right:50px;
+  margin-top:-130px;
+  position:absolute;
+  z-index: -1;
 }
 #lblTotal{
-  z-index: 2;
-  margin-top:-10px;
+  position:absolute;
+  margin-top:-240px;
+  z-index: -2;
+  margin-left:30px;
 }
