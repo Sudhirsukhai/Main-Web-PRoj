@@ -22,3 +22,21 @@ h1{
 #btnLivingEnv,#btnTrig{
   margin-left:60px;
 }
+
+#Game1Ans{
+  text-align:left;
+}
+
+#Game1Words{
+  border:solid 2px;
+  height:200px;
+  font-size:30px;
+}
+#Game1Words label{
+  margin-left:10px;
+  margin-bottom:10px;
+}
+
+#Game1Ans input{
+  width:8px;
+}
