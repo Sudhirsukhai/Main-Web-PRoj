@@ -15,6 +15,7 @@ var Correct;
 var G1Key = ["d","a","c","i","j","f","b","h","g","e"];
 
 function AddList(){
+  document.getElementById("Game2").style.display = "none"
   document.getElementById("Game1").style.display = "none"
   document.getElementById("Results").style.display = "none"
   document.getElementById("btnChem").addEventListener("click",Chem)
