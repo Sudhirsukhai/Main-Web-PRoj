@@ -27,6 +27,7 @@ function Chem(){
 }
 
 function Submit1(){
+  document.getElementById("Game1").style.display = "none"
   ans1 = document.getElementById("Chem1").value
   ans2 = document.getElementById("Chem2").value
   ans3 = document.getElementById("Chem3").value
@@ -48,5 +49,6 @@ function Submit1(){
       CurrIndex += 1
     }
   }
-  alert("You have " + Correct + "/10 correct.")
+  document.getElementById("lblscore1").value = Correct.tostring + "/10"
+  document.getElementById("lblscore2").innerText = "You have " + Correct + "/10 correct."
 }
