@@ -1,7 +1,18 @@
 window.addEventListener("load",AddList)
-document.getElementById("MainSelectors").style.display = "none"
-document.getElementById("H1").style.display = "none"
+var ans1;
+var ans2;
+var ans3;
+var ans4;
+var ans5;
+var ans6;
+var ans7;
+var ans8;
+var ans9;
+var ans10;
+
 function AddList(){
+  document.getElementById("MainSelectors").style.display = "none"
+  document.getElementById("H1").style.display = "none"
   document.getElementById("btnChem").addEventListener("click",Chem)
   document.getElementById("btnGame1Submit").addEventListener("click",Submit1)
 }
@@ -12,5 +23,16 @@ function Chem(){
 }
 
 function Submit1(){
-  ans1 = document.getElementById("MainSelectors").value
+  ans1 = document.getElementById("Chem1").value
+  ans2 = document.getElementById("Chem2").value
+  ans3 = document.getElementById("Chem3").value
+  ans4 = document.getElementById("Chem4").value
+  ans5 = document.getElementById("Chem5").value
+  ans6 = document.getElementById("Chem6").value
+  ans7 = document.getElementById("Chem7").value
+  ans8 = document.getElementById("Chem8").value
+  ans9 = document.getElementById("Chem9").value
+  ans10 = document.getElementById("Chem10").value
+  
+  
 }
