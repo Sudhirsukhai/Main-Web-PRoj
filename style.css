@@ -28,6 +28,7 @@ h1{
 }
 
 #Game1Words{
+  padding-top:20px;
   margin-left:80px;
   border:solid 2px;
   width: 1200px;
@@ -45,10 +46,11 @@ h1{
   width:19px;
   font-size:28px;
 }
-#btnChemWord2{
+#ChemWord2{
   margin-top:20px;
 }
 
 #btnGame1Submit{
-  
+  font-size:20px;
+  width:120px;
 }
