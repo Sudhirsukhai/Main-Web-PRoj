@@ -41,6 +41,12 @@ function Submit1(){
   CurrIndex = 0
   Correct = 0
   while (CurrIndex != 10){
-    if CurrIndex
+    if (arrayAns.at(CurrIndex) == G1Key.at(CurrIndex)){
+      CurrIndex = CurrIndex + 1
+      Correct = Correct+1
+    }else{
+      CurrIndex += 1
+    }
   }
+  alert("You have " + Correct + "/10 correct.")
 }
