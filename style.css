@@ -56,5 +56,9 @@ h1{
 }
 #Results label{
   color: ;
+  font-variant-numeric: diagonal-fractions;
   font-size:150px;
+}
+#lblscore1{
+  font-variant-numeric: diagonal-fractions; 
 }
