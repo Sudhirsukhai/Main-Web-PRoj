@@ -9,6 +9,10 @@ var ans7;
 var ans8;
 var ans9;
 var ans10;
+var arrayAns;
+var CurrIndex;
+var Correct;
+var G1Key = ["d","a","c","i","j","f","b","h","g","e"];
 
 function AddList(){
   document.getElementById("MainSelectors").style.display = "none"
@@ -33,6 +37,10 @@ function Submit1(){
   ans8 = document.getElementById("Chem8").value
   ans9 = document.getElementById("Chem9").value
   ans10 = document.getElementById("Chem10").value
-  
-  
+  arrayAns = [ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10]
+  CurrIndex = 0
+  Correct = 0
+  while (CurrIndex != 10){
+    if CurrIndex
+  }
 }
