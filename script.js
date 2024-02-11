@@ -49,6 +49,6 @@ function Submit1(){
       CurrIndex += 1
     }
   }
-  document.getElementById("lblscore1").innerText = Correct + "\u2044 10"
+  document.getElementById("lblscore1").innerText = Correct
   document.getElementById("lblscore2").innerText = "You have " + Correct + "/10 correct."
 }

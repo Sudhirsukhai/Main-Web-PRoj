@@ -60,5 +60,15 @@ h1{
   font-size:150px;
 }
 #lblscore1{
-  font-variant-numeric: diagonal-fractions; 
+  
+  
+  
+  
+}
+#lblSep{
+  z-index: 1;
+}
+#lblTotal{
+  z-index: 2;
+  margin-top:-10px;
 }
