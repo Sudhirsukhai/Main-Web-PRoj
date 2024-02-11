@@ -15,8 +15,8 @@ var Correct;
 var G1Key = ["d","a","c","i","j","f","b","h","g","e"];
 
 function AddList(){
-  document.getElementById("MainSelectors").style.display = "none"
-  document.getElementById("H1").style.display = "none"
+  document.getElementById("Game1").style.display = "none"
+  document.getElementById("Results").style.display = "none"
   document.getElementById("btnChem").addEventListener("click",Chem)
   document.getElementById("btnGame1Submit").addEventListener("click",Submit1)
 }
@@ -24,6 +24,7 @@ function AddList(){
 function Chem(){
   document.getElementById("MainSelectors").style.display = "none"
   document.getElementById("H1").style.display = "none"
+  document.getElementById("Game1").style.display = "block"
 }
 
 function Submit1(){
@@ -49,6 +50,8 @@ function Submit1(){
       CurrIndex += 1
     }
   }
+  
+  document.getElementById("Results").style.display = "block"
   document.getElementById("lblscore1").innerText = Correct
-  document.getElementById("lblscore2").innerText = "You have " + Correct + "/10 correct."
+  document.getElementById("lblscore2").innerText = "Correct"
 }
