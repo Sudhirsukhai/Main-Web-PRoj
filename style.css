@@ -82,7 +82,7 @@ h1{
   width:19px;
   font-size:28px;
 }
-#ChemWord2{
+#LivEnvWord{
   margin-top:20px;
 }
 
@@ -91,7 +91,18 @@ h1{
   width:120px;
 }
 
-
+/* Game 3 */
+#Game3Ans{
+  text-align:left;
+}
+#Game3Ans label{
+  font-size:28px;
+}
+#Game3Ans input, #Game3Ans ol{
+  height:28px;
+  width:19px;
+  font-size:28px;
+}
 /* results */
 #Results{
   font-size:150px;
