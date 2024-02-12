@@ -13,6 +13,7 @@ var arrayAns;
 var CurrIndex;
 var Correct;
 var G1Key = ["d","a","c","i","j","f","b","h","g","e"];
+var G2Key = ["d","b","g","f","c","j","a","h","i","e"];
 
 function AddList(){
   document.getElementById("Game2").style.display = "none"
@@ -21,7 +22,7 @@ function AddList(){
   document.getElementById("btnChem").addEventListener("click",Chem)
   document.getElementById("btnGame1Submit").addEventListener("click",Submit1)
   document.getElementById("btnLivingEnv").addEventListener("click",LivEnv)
-  document.getElementById("btnGame1Submit").addEventListener("click",Submit1)
+  document.getElementById("btnGame2Submit").addEventListener("click",Submit2)
 }
 
 function Chem(){
@@ -63,4 +64,33 @@ function LivEnv(){
   document.getElementById("MainSelectors").style.display = "none"
   document.getElementById("H1").style.display = "none"
   document.getElementById("Game2").style.display = "block"
+}
+
+function Submit2(){
+  document.getElementById("Game2").style.display = "none"
+  ans1 = document.getElementById("LivEnv1").value
+  ans2 = document.getElementById("LivEnv2").value
+  ans3 = document.getElementById("LivEnv3").value
+  ans4 = document.getElementById("LivEnv4").value
+  ans5 = document.getElementById("LivEnv5").value
+  ans6 = document.getElementById("LivEnv6").value
+  ans7 = document.getElementById("LivEnv7").value
+  ans8 = document.getElementById("LivEnv8").value
+  ans9 = document.getElementById("LivEnv9").value
+  ans10 = document.getElementById("LivEnv10").value
+  arrayAns = [ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10]
+  CurrIndex = 0
+  Correct = 0
+  while (CurrIndex != 10){
+    if (arrayAns.at(CurrIndex) == G2Key.at(CurrIndex)){
+      CurrIndex = CurrIndex + 1
+      Correct = Correct+1
+    }else{
+      CurrIndex += 1
+    }
+  }
+  
+  document.getElementById("Results").style.display = "block"
+  document.getElementById("lblscore1").innerText = Correct
+  document.getElementById("lblscore2").innerText = "Correct"
 }
