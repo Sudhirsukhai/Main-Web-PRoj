@@ -20,6 +20,8 @@ function AddList(){
   document.getElementById("Results").style.display = "none"
   document.getElementById("btnChem").addEventListener("click",Chem)
   document.getElementById("btnGame1Submit").addEventListener("click",Submit1)
+  document.getElementById("btnLivingEnv").addEventListener("click",LivEnv)
+  document.getElementById("btnGame1Submit").addEventListener("click",Submit1)
 }
 
 function Chem(){
@@ -55,4 +57,10 @@ function Submit1(){
   document.getElementById("Results").style.display = "block"
   document.getElementById("lblscore1").innerText = Correct
   document.getElementById("lblscore2").innerText = "Correct"
+}
+
+function LivEnv(){
+  document.getElementById("MainSelectors").style.display = "none"
+  document.getElementById("H1").style.display = "none"
+  document.getElementById("Game2").style.display = "block"
 }

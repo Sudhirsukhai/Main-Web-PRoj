@@ -23,6 +23,8 @@ h1{
   margin-left:60px;
 }
 
+/* Game1 */
+
 #Game1Ans{
   text-align:left;
 }
@@ -54,6 +56,43 @@ h1{
   font-size:20px;
   width:120px;
 }
+
+/* Game2 */
+
+#Game2Ans{
+  text-align:left;
+}
+
+#Game2Words{
+  padding-top:20px;
+  margin-left:80px;
+  border:solid 2px;
+  width: 1200px;
+  height:120px;
+  font-size:30px;
+}
+#Game2Words label{
+  margin-bottom:10px;
+}
+#Game2Ans label{
+  font-size:28px;
+}
+#Game2Ans input{
+  height:28px;
+  width:19px;
+  font-size:28px;
+}
+#ChemWord2{
+  margin-top:20px;
+}
+
+#btnGame2Submit{
+  font-size:20px;
+  width:120px;
+}
+
+
+/* results */
 #Results{
   font-size:150px;
 }
