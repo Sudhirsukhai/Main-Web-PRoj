@@ -108,6 +108,10 @@ h1{
   width:1000px;
   font-size:28px;
 }
+#btnGame3Submit{
+  font-size:20px;
+  width:120px;
+}
 /* results */
 #Results{
   font-size:150px;
