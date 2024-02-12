@@ -93,9 +93,11 @@ h1{
 
 /* Game 3 */
 #Game3Ans{
+  margin-left:30px;
   text-align:left;
 }
 #Game3Ans label{
+  width:auto;
   font-size:28px;
 }
 #Game3Ans input{
