@@ -17,6 +17,7 @@ var G2Key = ["d","b","g","f","c","j","a","h","i","e"];
 var G3Key = ["d","b","a","a","a","d","b","b","b","a"];
 
 function AddList(){
+  document.getElementById("Game4").style.display = "none"
   document.getElementById("Game3").style.display = "none"
   document.getElementById("Game2").style.display = "none"
   document.getElementById("Game1").style.display = "none"
