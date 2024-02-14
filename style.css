@@ -111,7 +111,27 @@ h1{
   font-size:28px;
 }
 #btnGame3Submit{
-  margin-top: 225%;
+  margin-top: 155%;
+  font-size:20px;
+  width:120px;
+}
+
+/* Game4 */
+#Game4Ans{
+  margin-left:30px;
+  text-align:left;
+}
+#Game4Ans label{
+  width:auto;
+  font-size:28px;
+}
+#Game4Ans input{
+  height:28px;
+  width:200px;
+  font-size:28px;
+}
+
+#btnGame4Submit{
   font-size:20px;
   width:120px;
 }

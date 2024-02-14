@@ -15,6 +15,7 @@ var Correct;
 var G1Key = ["d","a","c","i","j","f","b","h","g","e"];
 var G2Key = ["d","b","g","f","c","j","a","h","i","e"];
 var G3Key = ["d","b","a","a","a","d","b","b","b","a"];
+var G4Key = ["","","","","","","","","",""]
 
 function AddList(){
   document.getElementById("Game4").style.display = "none"
@@ -28,6 +29,8 @@ function AddList(){
   document.getElementById("btnGame2Submit").addEventListener("click",Submit2)
   document.getElementById("btnAlgebra").addEventListener("click",Alg)
   document.getElementById("btnGame3Submit").addEventListener("click",Submit3)
+  document.getElementById("btnTrig").addEventListener("click",Trig)
+  document.getElementById("btnGame4Submit").addEventListener("click",Submit4)
 }
 
 function Chem(){
@@ -123,6 +126,41 @@ function Submit3(){
   Correct = 0
   while (CurrIndex != 10){
     if (arrayAns.at(CurrIndex) == G3Key.at(CurrIndex)){
+      CurrIndex = CurrIndex + 1
+      Correct = Correct+1
+    }else{
+      CurrIndex += 1
+    }
+  }
+  
+  document.getElementById("Results").style.display = "block"
+  document.getElementById("lblscore1").innerText = Correct
+  document.getElementById("lblscore2").innerText = "Correct"
+}
+
+function Trig(){
+  document.getElementById("MainSelectors").style.display = "none"
+  document.getElementById("H1").style.display = "none"
+  document.getElementById("Game4").style.display = "block"
+}
+
+function Submit4(){
+  document.getElementById("Game4").style.display = "none"
+  ans1 = document.getElementById("Trig1").value
+  ans2 = document.getElementById("Trig2").value
+  ans3 = document.getElementById("Trig3").value
+  ans4 = document.getElementById("Trig4").value
+  ans5 = document.getElementById("Trig5").value
+  ans6 = document.getElementById("Trig6").value
+  ans7 = document.getElementById("Trig7").value
+  ans8 = document.getElementById("Trig8").value
+  ans9 = document.getElementById("Trig9").value
+  ans10 = document.getElementById("Trig10").value
+  arrayAns = [ans1, ans2, ans3, ans4, ans5, ans6, ans7, ans8, ans9, ans10]
+  CurrIndex = 0
+  Correct = 0
+  while (CurrIndex != 10){
+    if (arrayAns.at(CurrIndex) == G4Key.at(CurrIndex)){
       CurrIndex = CurrIndex + 1
       Correct = Correct+1
     }else{
