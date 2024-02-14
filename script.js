@@ -15,7 +15,7 @@ var Correct;
 var G1Key = ["d","a","c","i","j","f","b","h","g","e"];
 var G2Key = ["d","b","g","f","c","j","a","h","i","e"];
 var G3Key = ["d","b","a","a","a","d","b","b","b","a"];
-var G4Key = ["53.13","1.75","","","","","","","",""]
+var G4Key = ["53.13","1.75","21.07","","","","","","",""]
 
 function AddList(){
   document.getElementById("Game4").style.display = "none"
