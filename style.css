@@ -111,7 +111,8 @@ h1{
   font-size:28px;
 }
 #btnGame3Submit{
-  margin-top: 155%;
+  position:absolute;
+  margin-top: 2005px;
   font-size:20px;
   width:120px;
 }
