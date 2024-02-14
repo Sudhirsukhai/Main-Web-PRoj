@@ -7,7 +7,7 @@ var ans5;
 var ans6;
 var ans7;
 var ans8;
-var ans9;/
+var ans9;
 var ans10;
 var arrayAns;
 var CurrIndex;
